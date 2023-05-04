@@ -1,0 +1,113 @@
+*{
+	margin: 5px;
+}
+
+body{
+	background-color: #F3F5FC;
+}
+
+h1{
+	margin: 0px 50px;
+	position: absolute;
+	z-index: 100;
+	font-size: 72px;
+	color: #0A3871;
+}
+
+.conteiner{
+	background: #F3F5FC;
+	width: 99%;
+	height: 740px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#main-card{
+	margin-top: 0px;
+	width: 55%;
+	background-color: #F3F5FC;
+}
+
+#inputTextBox{
+	background-color: #F3F5FC;
+
+}
+
+.inputTextBox{
+	width: 95%;
+	height: 90%;
+	resize: none;
+	overflow:auto;
+	background-color:#F3F5FC;
+	color:#0A3871;
+	font-family: Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 30pt;
+}
+
+.btn{
+	margin-left: 10%;
+	width: 35%;
+	height: 10%;
+	border: 1px solid #0A3871;
+	border-radius: 20px;
+	background-color: #F3F5FC;
+	color: #0A3871;
+	font-weight: bold;
+	transition: all 1s ease;		
+}
+
+.btn:hover{
+	background-color: #C7D8FB;
+	color: #FFFFFF !important;
+}
+
+#encryptButton{
+	background-color: #0A3871;
+	color: #FFFFFF;
+}
+
+#encryptButton:hover{
+	background-color: #C7D8FB;
+	color: #0A3871 !important;
+}
+
+
+
+.card{
+	margin-left: 5%;
+	width: 30%;
+	height: 650px;
+	border: none;
+	border-radius: 30px;
+}
+
+
+.text-box{
+	margin: 2%;
+	width: 96%;
+	height: 85%;
+	resize: none;
+	border: 1px solid lightgray;
+	overflow:auto;
+	background-color:#FFFFFF;
+	color:black;
+	font-family: Geneva, Arial, Helvetica, sans-serif; font-size: small; 	
+}
+
+.btn-copy{
+	margin: 2% 15%;
+	width: 70%;
+	height: 10%;
+	border: 1px solid #0A3871;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	color: #0A3871;
+	font-weight: bold;
+	transition: all 1s ease;
+}
+
+.btn-copy:hover{
+	background-color: #C7D8FB;
+	color: #FFFFFF !important;
+}
